@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="content">
+        <!-- modal trigger -->
+        <label for="modal-trigger">Open Modal</label>
+        <input type="checkbox" id="modal-trigger" class="hck-modal-trigger">
+        <!-- modal -->
+        <div class="hck-modal">
+            <div class="hck-modal-container">
+                <header class="modal-header">
+                    <div class="modal-title">Title of Modal</div>
+                    <label for="modal-trigger" class="modal-close"></label>
+                </header>
+                <section class="modal-body">
+                    Modal content
+                </section>
+                <footer class="modal-footer">
+                    <!-- close modal -->
+                    <label for="modal-trigger">
+                        <span class="modal-button btn-submit">Cancel</span>
+                    </label>
+                    <button class="modal-button btn-submit">Okay</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
