@@ -1,0 +1,18 @@
+:root {
+    --color-primary : rgb(31, 69, 94);
+    --color-secondary : rgb(69, 80, 87);
+    --color-font : #1f1f1f;
+    --color-alt : white;
+    --color-dark-grey : #3d3d3d;
+    --color-mid-grey : #838383;
+    --color-light-grey : #dadada;
+
+    --modal-padding : 20px 30px;
+    --modal-margin: 30px auto;
+    --modal-size-default : 500px;
+    --modal-size-small : 80%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
